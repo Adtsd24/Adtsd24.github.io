@@ -25,5 +25,5 @@ mods.MTUtilsGT.addCustomRecipe("gt.recipe.centrifuge", false, 16, 10, 0, [10000]
 What this does is it uses a Centrifuge ("gt.recipe.centrifuge"), does NOT hide the recipe in NEI (bool false, but you CAN hide it with bool true), specify how much GU/t you supply (in this case 16) and the time for the recipe in ticks (10 in this case).
 We then add "[10000]" which I... do not understand why, but do NOT remove it, it WILL break the code. Same for the "0" before "[10000]". Now, we get to the fun part. First, we have "[<TConstruct:slime.gel:1>]" - here we have the item input, and you can add a star and number after the > to specify how many of those items are required.
 Then, there is a [] (aka [null]) value, which is for fluid input. In this recipe there is no fluid input, but you CAN add fluid inputs, including how much liquid you need. For example: [<liquid:water>*100].
-After, there is a single bracket: [<liquid:glue>*1000, <liquid:latex>*288], which contains the fluid outputs. And the last bracket thats nulled "[]", I am not sure what is it for yet. Will update the page when I will discover it!
+After, there is a single bracket: [<liquid:glue>*1000, <liquid:latex>*288], which contains the fluid outputs. And the last bracket thats nulled "[]", ITS AN ITEM INPUT. Yes I did update this.
 Anyways, thats everything you need. Bye, have a nice gregging session!
