@@ -1,4 +1,4 @@
-The Ultimate Guide to MTUtilsGT - the most confusing yet most useful mod ever
+The Ultimate Guide to MTUtilsGT - the most confusing yet most useful mod ever.
 I am Andrew, and I had a really big need of adding a recipe to a GregTech 6 Centrifuge. But, I struggled with this mod. Hell, I had to download TerraFirmaRescue to discover how this mod works! However, now YOU dont have to struggle as I had to! This is because, THIS page exists!
 First, we want to identify the machine. For this, we use:
 ```Minecraft_Command
